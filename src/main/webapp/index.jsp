@@ -2,7 +2,7 @@
   <body>
     <h1>This is a Web App</h1>
     <h2>Hello shivansh! This is a maven WebApp project...</h2>
-    <b>Project Details</b><br>
+    <strong>Project Details</strong><br>
     groupId : com.example.demos<br>
     artifactId : maven-webapp<br>
     packaging : war<br>
