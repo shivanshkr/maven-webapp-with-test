@@ -1,5 +1,6 @@
 <html>
   <body>
+    <h1>This is a Web App</h1>
     <h2>Hello shivansh! This is a maven WebApp project...</h2>
     <b>Project Details</b><br>
     groupId : com.example.demos<br>
