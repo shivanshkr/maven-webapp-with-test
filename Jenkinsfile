@@ -4,7 +4,7 @@ pipeline{
         stage('Setup'){
             steps{
                 echo 'Setup'
-                git 'C:\\Users\\kumar\\Desktop\\demos\\Pipeline\\maven-webapp-with-test\\.git'
+                
                 bat 'mvn clean'
             }
         }
