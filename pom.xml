@@ -8,9 +8,9 @@
   <name>Maven Webapp Demo</name>
   <properties>
     <sonar.projectKey>shivansh-demo-1</sonar.projectKey>
-    <sonar.organization>shivanshkr</sonar.organization>
-    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-    <sonar.login>87d0f0a05a1bc2f308637cd7ce1c1ddf356836c3</sonar.login>
+    <sonar.organization>${sonar-organization}</sonar.organization>
+    <sonar.host.url>${sonar-host-url}</sonar.host.url>
+    <sonar.login>${sonar-login}</sonar.login>
   </properties>
   <dependencies>
     <dependency>
@@ -39,16 +39,16 @@
     </plugins>
   </build>
   <distributionManagement>
-	<repository>
-      <id>artifactory</id>
-      <name>Internal releases</name>
-      <url>http://localhost:8081/artifactory/sample_release</url>
-    </repository>
-    <snapshotRepository>
-      <id>artifactory</id>
-      <name>Internal Snapshots releases</name>
-      <url>http://localhost:8081/artifactory/sample_snapshot</url>
-    </snapshotRepository>
+	   <repository>
+        <id>artifactory</id>
+        <name>Internal releases</name>
+        <url>http://localhost:8081/artifactory/sample_release</url>
+     </repository>
+     <snapshotRepository>
+        <id>artifactory</id>
+        <name>Internal Snapshots releases</name>
+        <url>http://localhost:8081/artifactory/sample_snapshot</url>
+     </snapshotRepository>
   </distributionManagement>
 
 </project>
