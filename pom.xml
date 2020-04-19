@@ -11,6 +11,8 @@
     <sonar.organization>${sonar-organization}</sonar.organization>
     <sonar.host.url>${sonar-host-url}</sonar.host.url>
     <sonar.login>${sonar-login}</sonar.login>
+    <maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
   </properties>
   <dependencies>
     <dependency>
