@@ -22,7 +22,7 @@ pipeline{
         }
         stage('Unit Testing'){
             steps{
-                echo 'Unit Testing'
+                echo 'Unit Testing step'
                 bat 'mvn test'
             }
         }
