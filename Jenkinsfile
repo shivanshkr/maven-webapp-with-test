@@ -61,8 +61,8 @@ pipeline{
                         delivery: [
                             $class: 'com.urbancode.jenkins.plugins.ucdeploy.DeliveryHelper$Push',
                             pushVersion: '${BUILD_NUMBER}',
-                            baseDir: 'workspace\\deployWithUCDpipeline',
-                            fileIncludePatterns: '**/*',
+                            baseDir: 'workspace\\CI-CD Pipeline\\target',
+                            fileIncludePatterns: '**/*.war',
                             fileExcludePatterns: '',
                             pushDescription: 'Pushed from Jenkins'
                         ]
